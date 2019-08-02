@@ -11,6 +11,9 @@ li {
     list-style: none;
 }
 
+
+/* Header */
+
 header {
     width: 100%;
     background: #000;
@@ -52,6 +55,75 @@ body {
     display: none;
 }
 
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .main-weclome {
+    background: #000;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+
+main .main-weclome p {
+    color: #999;
+    font-size: 20px;
+}
+
+main .main-weclome h1{
+    color: #999;
+    font-size: 44px;
+}
+
+main .my-company {
+    color: #fcac45;
+}
+
+main .wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+main .main-about {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.main-about .about-left img {
+    max-width: 100%;
+}
+
+.main-about .about-right {
+    margin-left: 175px;
+}
+
+.main-about .about-right h1 {
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.main-about .about-right p {
+    margin: 30px 0 50px 0;
+    color: #999;
+}
+
+.main-about .about-right li {
+    background: url(Copy.png);
+    background-size: auto 1rem;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-top: 10px;
+    color: #999;
+}
+
+
+/* Media */
+
 @media screen and (max-width: 1295px) {
     .top-nav {
         margin-left: 15%; 
@@ -65,6 +137,8 @@ body {
 }
 
 @media screen and (max-width: 1130px) {
+
+    /* Header */
     .top-nav a {
         display: none;
     }
@@ -98,5 +172,37 @@ body {
         position: absolute;
         top: -50px;
         right: -200px;
+    }
+
+    /* Main */
+
+    main .main-weclome {
+        padding: 50px 0 50px 0;
+    }
+
+    main .main-weclome p {
+        font-size: 14px;
+    }
+    
+    main .main-weclome h1 {
+        font-size: 25px;    
+    }
+
+    main .main-about {
+        flex-direction: column;
+    }
+
+    .main-about .about-right {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .main-about .about-right li{
+        text-align: left;
+    }
+
+    .main-about .about-right h1 {
+        font-size: 20px;
     }
 }
