@@ -62,33 +62,36 @@ main {
     flex-direction: column;
     width: 100%;
 }
-
-main .main-weclome {
+    /* Jumbotron */
+.main-weclome {
     background: #000;
     text-align: center;
     padding: 200px 0 410px 0;
 }
 
-main .main-weclome p {
+.main-weclome p {
     color: #999;
     font-size: 20px;
 }
 
-main .main-weclome h1{
+.main-weclome h1{
     color: #999;
     font-size: 44px;
 }
 
-main .my-company {
+.my-company {
     color: #fcac45;
 }
 
-main .wrapper {
+    /* Wrapper */
+.wrapper {
     width: 85%;
     margin: 0 auto;
 }
 
-main .main-about {
+    /* About */
+
+.main-about {
     display: flex;
     padding: 100px 0 100px 0;
 }
@@ -120,6 +123,62 @@ main .main-about {
     margin-top: 10px;
     color: #999;
 }
+
+    /* Team */
+.main-team {
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.main-team h1 {
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+.main-team .line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 45%;
+    margin-bottom: 85px;
+}
+
+.main-team .photo {
+    background: #999;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.main-team .team-cards {
+    display: flex;
+}
+
+.main-team .card {
+    margin: 0 20px;
+}
+
+.main-team .name {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.main-team .position {
+    font-size: 16px;
+    margin-bottom: 35px;
+    color: #999;
+}
+
+.main-team .about-position {
+    font-size: 14px;
+    line-height: 2em;
+    color:#999;
+}
+
 
 
 /* Media */
@@ -175,6 +234,7 @@ main .main-about {
     }
 
     /* Main */
+        /* Jumbotron */
 
     main .main-weclome {
         padding: 50px 0 50px 0;
@@ -183,6 +243,8 @@ main .main-about {
     main .main-weclome p {
         font-size: 14px;
     }
+
+        /* About */
     
     main .main-weclome h1 {
         font-size: 25px;    
@@ -204,5 +266,9 @@ main .main-about {
 
     .main-about .about-right h1 {
         font-size: 20px;
+    }
+
+    .main-team .team-cards {
+        flex-direction: column;
     }
 }
