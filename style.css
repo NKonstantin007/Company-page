@@ -367,8 +367,29 @@ main {
         line-height: 1.8rem;
     }
 
+    /* Footer */
+    footer {
+        width: 100%;
+        background: #000;
+        padding: 30px 0 30px 0;
+    }
 
 
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social i {
+        margin-left: 12px;
+        color: #6c6c6c;
+        font-size: 24px;
+    }
+
+    .social i:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
 
 /* Media */
 
