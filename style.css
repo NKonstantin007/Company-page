@@ -275,6 +275,33 @@ main {
     text-transform: uppercase;
 }
 
+    /* Main works */
+
+.main-work {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.main-work h1 {
+    margin-bottom: 30px;
+}
+
+.main-work h1 span {
+    color: #999;
+}
+
+.main-work p {
+    margin-bottom: 175px;
+    color: #6c6c6c;
+    line-height: 1.8rem;
+}
+
+.main-work img:hover {
+    opacity: 0.9;
+}
+
+
+
 /* Media */
 
 @media screen and (max-width: 1295px) {
@@ -380,4 +407,18 @@ main {
     .main-clients .clients h2 {
         margin-bottom: 2em;
     }
+
+    /* Main works */
+    .main-work .line1 img:not(:first-child) {
+        display: none;
+    }
+
+    .main-work .line2 img:not(:first-child) {
+        display: none;
+    }
+
+    .main-work .line3 img:not(:first-child) {
+        display: none;
+    }
+
 }
