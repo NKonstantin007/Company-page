@@ -249,8 +249,31 @@ main {
     font-weight: bold;
 }
 
+/* Testimonials */
 
+.main-testimonials {
+    background: #000;
+    text-align: center;
+    padding: 100px 0 205px 0;
+}
 
+.main-testimonials h1 { 
+    margin-bottom: 30px;
+    color: #fff;  
+}
+
+.main-testimonials h1 span {
+    color: #999;
+}
+
+.main-testimonials p {
+    color: #999;
+}
+
+.main-testimonials p:first-of-type {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
 
 /* Media */
 
