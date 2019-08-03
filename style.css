@@ -137,15 +137,6 @@ main {
     padding-bottom: 30px;
 }
 
-.main-team .line {
-    width: 100px;
-    height: 3px;
-    background: #fcac45;
-    position: relative;
-    left: 45%;
-    margin-bottom: 85px;
-}
-
 .main-team .photo {
     background: #999;
     width: 125px;
@@ -179,6 +170,53 @@ main {
     color:#999;
 }
 
+    /* Line */
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 45%;
+    margin-bottom: 85px;
+}
+
+    /* Services */
+
+.main-services .services-cards {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-cards .services-card {
+    margin: 2em;
+}
+
+.services-cards .services-card img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fcac45;
+}
+
+.main-services h1 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+.main-services p {
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+
+.main-services .wrapper > p {
+    line-height: 1.8rem;
+}
+
+.services-card h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 
 
 /* Media */
@@ -269,6 +307,12 @@ main {
     }
 
     .main-team .team-cards {
+        flex-direction: column;
+    }
+
+    /* Services */
+
+    .services-cards {
         flex-direction: column;
     }
 }
